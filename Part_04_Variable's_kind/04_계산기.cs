@@ -12,7 +12,7 @@ namespace _04_계산기
 {
     public partial class Form1 : Form
     {
-        double result = 0;
+        double result = 0;  // 수식이 적용되는 부분 : 결과
                
         public Form1()
         {
