@@ -15,6 +15,13 @@ namespace _06_논리연산자_과제_01
         public Form1()
         {
             InitializeComponent();
+            
+            /*  입영 가능 조건
+             *
+             *  성별은 남자
+             *  나이는 19 ~ 28살
+             *  신체등급은 1 ~ 3등급 만 가능하다고 설정
+             */
         }
 
         private void button1_Click(object sender, EventArgs e)
