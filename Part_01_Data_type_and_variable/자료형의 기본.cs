@@ -14,7 +14,7 @@ namespace _01_자료형의_기본
     {        
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent(); 
         }
 
         private void button1_Click(object sender, EventArgs e)
