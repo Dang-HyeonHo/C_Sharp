@@ -49,7 +49,7 @@ namespace _01_자료형의_기본
             double Data = double.Parse(textBox1.Text);
             label1.Text = Data.ToString();
             
-            // int와 double를 텍스트로 표현하고 싶으면 '.ToString()'을 사용 
+            // int와 double를 텍스트로 표현하고 싶으면 '.ToString()'을 사용
         }
     }
 }
