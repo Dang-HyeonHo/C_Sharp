@@ -23,13 +23,13 @@ namespace switch문
 
             switch (num)
             {
-                case 0:
+                case 0:     // textBox1.Text == 0 일때만 반응
                     label1.Text = "0입니다.";
                     break;  // 반복문을 1회 벗어난다.
                 case 1:
                     label1.Text = "1입니다.";
                     break;
-                default:
+                default:    // 지정값을 제외한 값일 경우 반응
                     label1.Text = "0과 1은 아니네요.";
                     break;
             }
