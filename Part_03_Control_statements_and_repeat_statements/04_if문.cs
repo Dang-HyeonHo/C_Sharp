@@ -22,6 +22,7 @@ namespace _03_if문
             string gender = textBox1.Text;
 
             // if -> (else if) -> (else)
+            
             if (gender == "여자" || gender == "여성" || gender == "여")
                 //if 의 조건이 ture 일 때
                 label1.Text = "입장하신 사용자는 여자입니다.";
